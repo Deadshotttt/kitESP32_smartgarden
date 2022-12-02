@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=IO15 Pin=P3-10
+Added Component: Designator=D1(D1A)
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Component: Designator=D2(D1A)
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=+5V Pin=D1-2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=5V Pin=D2-2
+Added Pin To Net: NetName=IO05 Pin=P3-10
+Added Pin To Net: NetName=IO17 Pin=R2-1
+Added Member To Class: ClassName=esp32_doan Member=Component D1 1N4007
+Added Member To Class: ClassName=esp32_doan Member=Component D2 1N4007
